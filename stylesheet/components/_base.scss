@@ -1,0 +1,10 @@
+.accordion-button::after {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+}
