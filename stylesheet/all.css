@@ -3927,7 +3927,7 @@ progress {
   --bs-accordion-color: var(--bs-body-color);
   --bs-accordion-bg: var(--bs-body-bg);
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
-  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-border-color: transparent;
   --bs-accordion-border-width: var(--bs-border-width);
   --bs-accordion-border-radius: var(--bs-border-radius);
   --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
@@ -10608,10 +10608,16 @@ progress {
 .accordion-button::after {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: var(--bs-accordion-btn-icon-width);
-  height: var(--bs-accordion-btn-icon-width);
+  width: 30px;
+  height: 31px;
   margin-left: auto;
   content: "";
   background-repeat: no-repeat;
-  background-size: var(--bs-accordion-btn-icon-width);
+  background-size: 30px;
+}
+
+.accordion .accordion-header:hover .h6 {
+  color: #ad28eb !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }/*# sourceMappingURL=all.css.map */

@@ -20,13 +20,13 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
     <style>
       .theme-bg {
         background: url(./assets/images/background-pattern-desktop.svg)
           no-repeat center top/contain;
         background-color: #f9eeff;
-        @media (max-width: 560px) {
+        @media (max-width: 768px) {
           background: url(./assets/images/background-pattern-mobile.svg)
             no-repeat center top/contain;
           background-color: #f9eeff;
@@ -43,10 +43,10 @@
   <body>
     <div class="theme-bg">
       <div class="container py-5">
-        <div class="col-lg-6 mx-auto py-5 mb-5">
-          <div class="accordion rounded shadow-lg mb-5" id="accordionExample">
+        <div class="col-lg-6 mx-auto py-5 my-5">
+          <div class="accordion rounded shadow-lg my-5" id="accordionExample">
             <div class="accordion-item border-0 px-4">
-              <h1 class="p-4 fw-bold text-dark">
+              <h1 class="pt-5 p-3 fw-bold text-dark mb-0">
                 <img src="assets/images/icon-star.svg" class="" alt="star" />
                 FAQs
               </h1>
@@ -59,7 +59,7 @@
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  <h3 class="h6 text-dark mb-0 fw-semibold">
+                  <h3 class="h6 text-dark mb-0 fw-semibold py-2">
                     What is Frontend Mentor, and how will it help me?
                   </h3>
                 </button>
@@ -70,7 +70,7 @@
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body text-info border-0">
+                <div class="accordion-body text-info border-0 pt-0">
                   Frontend Mentor offers realistic coding challenges to help
                   developers improve their frontend coding skills with projects
                   in HTML, CSS, and JavaScript. It's suitable for all levels and
@@ -88,7 +88,7 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  <h3 class="h6 text-dark mb-0 fw-semibold">
+                  <h3 class="h6 text-dark mb-0 fw-semibold py-2">
                     Is Frontend Mentor free?
                   </h3>
                 </button>
@@ -99,7 +99,7 @@
                 aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body border-0 text-info">
+                <div class="accordion-body border-0 text-info pt-0">
                   Yes, Frontend Mentor offers both free and premium coding
                   challenges, with the free option providing access to a range
                   of projects suitable for all skill levels.
@@ -116,7 +116,7 @@
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  <h3 class="h6 text-dark mb-0 fw-semibold">
+                  <h3 class="h6 text-dark mb-0 fw-semibold py-2">
                     Can I use Frontend Mentor projects in my portfolio?
                   </h3>
                 </button>
@@ -127,7 +127,7 @@
                 aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body border-0 text-info">
+                <div class="accordion-body border-0 text-info pt-0">
                   Yes, you can use projects completed on Frontend Mentor in your
                   portfolio. It's an excellent way to showcase your skills to
                   potential employers!
@@ -145,7 +145,7 @@
                   aria-expanded="false"
                   aria-controls="collapseFour"
                 >
-                  <h3 class="h6 text-dark mb-0 fw-semibold">
+                  <h3 class="h6 text-dark mb-0 fw-semibold py-2">
                     How can I get help if I'm stuck on a Frontend Mentor
                     challenge?
                   </h3>
@@ -157,7 +157,7 @@
                 aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body text-info border-0">
+                <div class="accordion-body text-info border-0 pt-0">
                   The best place to get help is inside Frontend Mentor's Discord
                   community. There's a help channel where you can ask questions
                   and seek support from other community members.

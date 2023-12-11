@@ -1,10 +1,16 @@
 .accordion-button::after {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: var(--bs-accordion-btn-icon-width);
-  height: var(--bs-accordion-btn-icon-width);
+  width: 30px;
+  height: 31px;
   margin-left: auto;
   content: "";
   background-repeat: no-repeat;
-  background-size: var(--bs-accordion-btn-icon-width);
+  background-size: 30px;
+}
+.accordion .accordion-header:hover {
+  .h6 {
+    color: #ad28eb !important;
+    transition: all 0.2s;
+  }
 }
